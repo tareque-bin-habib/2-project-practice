@@ -4,8 +4,6 @@ body{
 }
 .flexi{
     display: flex;
-    padding-top: 1%;
-    padding-left: 10%;
     margin-bottom: 100px;
 }
 h1{
@@ -20,6 +18,8 @@ p{
 }
 .half-width{
     width: 50%;
+    padding-top: 1%;
+    padding-left: 10%;
 }
 .half-width img{
     width: 70%;
@@ -38,4 +38,40 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exp_item{
+    width: 40%;
+    box-shadow: 10px 20px 40px grey;
+    margin-left: 7%;
+}
+#baby{
+    border-image: linear-gradient(blue,cyan);
+    border-left: 8px solid;
+    border-image-slice: 1;
+}#stack{
+    border-image: linear-gradient(purple,tomato);
+    border-left: 8px solid;
+    border-image-slice: 1;
+}
+.exp_head{
+    font-size: 40px;
+    margin-left: 130px;
+}
+.exp_head_2{
+    font-size: 35px;
+    padding-left: 2%;
+}
+.exp_pera{
+    padding-left: 2%;
+}
+.stack_head{
+    padding-left: 2%;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
 }
